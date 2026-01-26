@@ -2,7 +2,7 @@ terraform {
   required_providers {
     oci = {
       source = "oracle/oci"
-      version = "7.30.0"
+      version = "7.31.0"
     }
     sops = {
       source = "carlpett/sops"
@@ -10,7 +10,7 @@ terraform {
     }
     cloudflare = {
       source = "cloudflare/cloudflare"
-      version = "5.15.0"
+      version = "5.16.0"
     }
   }
 }
